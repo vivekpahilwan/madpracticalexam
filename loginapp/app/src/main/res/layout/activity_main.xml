@@ -7,7 +7,9 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center">
-
+<!--Take 2 Edit texts and a button -->
+<!--add validate function on onclick of button-->
+<!---->
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"

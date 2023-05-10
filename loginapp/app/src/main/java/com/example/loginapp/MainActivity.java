@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void validate(View v){
 
-        if (et1.getText().toString() == "admin" && et2.getText().toString() == "admin"){
+        if (et1.getText().toString().equals("admin") && et2.getText().toString().equals("admin")){
             Toast.makeText(this,"Success",Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(this,"fail",Toast.LENGTH_SHORT).show();
