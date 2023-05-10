@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToggleButtonDemo</string>
+    <string name="click_to_button">Click TO Button</string>
+    <string name="submit">Submit</string>
+</resources>

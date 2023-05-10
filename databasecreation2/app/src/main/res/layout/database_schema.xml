@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <database name="example_db">
+        <table name="users">
+            <column name="id" type="integer" primaryKey="true" autoIncrement="true" />
+            <column name="name" type="text" />
+            <column name="age" type="integer" />
+        </table>
+    </database>
+
+
+</LinearLayout>

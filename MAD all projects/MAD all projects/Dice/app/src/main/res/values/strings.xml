@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dice</string>
+    <string name="gfg_android">GFG | Android</string>
+    <string name="winner_player_1">WINNER : Player 1</string>
+    <string name="player_1">Player 1</string>
+</resources>

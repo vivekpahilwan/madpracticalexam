@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Database Demo</string>
+    <string name="enter_class">Enter Class</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="save">SAVE</string>
+    <string name="show">show</string>
+    <string name="reset">reset</string>
+    <string name="detail_saver">DETAIL SAVER</string>
+</resources>

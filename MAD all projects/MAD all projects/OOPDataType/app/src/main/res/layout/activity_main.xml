@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="The OPP DataTypes:  -" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:text="Preemptive: -" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="70dp"
+        android:text="1)Int 2)float 3)boolean 4)Char" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:text="Non-Preemptive: -" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="37dp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="70dp"
+        android:text="1)Class 2)Interface 3)Array 4) Object" />
+</FrameLayout>

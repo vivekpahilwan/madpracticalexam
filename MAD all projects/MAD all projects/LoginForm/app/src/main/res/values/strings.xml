@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Demo LogIn Form For a social media site</string>
+    <string name="Username">UserName</string>
+    <string name="Password">Password</string>
+    <string name="User">Enter UserName</string>
+    <string name="Pass">Enter Password</string>
+    <string name="Submit">Submit</string>
+    <string name="Detail">Please Enter Detail</string>
+    <string name="login_form">Login Form</string>
+    <string name="login">LogIn Successfully</string>
+    <string name="back">Go to Back Page    </string>
+</resources>

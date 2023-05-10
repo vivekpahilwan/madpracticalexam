@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <!-- everything you already have -->
+
+
+            <DatePicker
+                android:id="@+id/dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="calendar" />
+
+            <TimePicker
+                android:id="@+id/tp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"/>
+                <!-- Clock -->
+
+            <Button
+                android:id="@+id/btn"
+                android:onClick="showdatetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show" />
+
+
+        </TableLayout>
+    </LinearLayout>

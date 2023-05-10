@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on Botton" />
+
+    <ImageButton
+        android:id="@+id/Button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/beautiful_summer_spring_meadow_blue_flowers_forget_me_nots_two_flying_butterflies_wild_nature_landscape_beautiful_182636005" />
+</LinearLayout>

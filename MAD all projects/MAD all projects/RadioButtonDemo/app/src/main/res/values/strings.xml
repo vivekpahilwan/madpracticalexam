@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RadioButtonDemo</string>
+    <string name="single_radio_button">Single Radio Button</string>
+    <string name="radiobutton_1">RadioButton 1</string>
+    <string name="radiobutton_2">RadioButton 2</string>
+    <string name="radio_button_inside_radiogroup">Radio Button inside RadioGroup</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+</resources>

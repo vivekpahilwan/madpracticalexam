@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_saver"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:minHeight="48dp"
+        android:ems="10"
+        android:hint="@string/enter_name"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_centerHorizontal="true"
+        android:height="50dp"
+        android:minHeight="48dp"
+        android:ems="10"
+        android:hint="@string/enter_class"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_below="@+id/et2"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:id="@+id/et3"
+        android:autofillHints=""
+        android:hint="@string/enter_email"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_below="@+id/et3"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:id="@+id/et4"
+        android:autofillHints=""
+        android:hint="@string/enter_mobile_number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et4"
+        android:id="@+id/b1"
+        android:text="@string/save"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/b1"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/et4"
+        android:id="@+id/b2"
+        android:text="@string/show"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_toEndOf="@+id/b1"
+        android:layout_below="@+id/et4"
+        android:id="@+id/b3"
+        android:text="@string/reset"/>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b2"
+            android:layout_marginTop="20dp"
+            android:padding="20sp"
+            android:scrollbars="horizontal|vertical"
+            android:scrollbarFadeDuration="10"
+            android:visibility="visible"
+            android:id="@+id/lv1">
+        </ListView>
+
+</RelativeLayout>

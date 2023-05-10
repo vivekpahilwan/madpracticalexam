@@ -1,0 +1,56 @@
+normal
+
+ public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this , activity_1.class);
+                startActivity(intent);
+    }
+
+password
+
+ public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this , activity_1.class);
+
+    }
+
+if (username.getText().toString().equals("abcd")){
+                startActivity(intent);
+
+                }
+
+main activity
+
+package com.example.restaurantapp;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.service.autofill.OnClickAction;
+import android.view.View;
+import android.content.Intent;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class MainActivity extends AppCompatActivity {
+    private Button regmain;
+    private Button loginmain;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        this.setTitle("welcome");
+//        regmain=findViewById(R.id.registerbtnone);
+        loginmain=findViewById(R.id.loginbtnone);
+
+        loginmain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this , activity_3.class);
+                startActivity(intent);
+
+    }
+
+
+        });
+
+    }
+}

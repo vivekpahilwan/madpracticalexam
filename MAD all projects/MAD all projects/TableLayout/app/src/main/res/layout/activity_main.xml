@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="3">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:text="Sr. No"
+            android:paddingRight="35dp"/>
+        <TextView
+            android:text="Name"
+            android:paddingRight="70dp"/>
+        <TextView
+            android:text="Class"
+            android:paddingRight="40dp"/>
+        <TextView
+            android:text="Phone No."
+            android:paddingRight="70dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:text="01."
+            android:paddingRight="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Darshan Wagh"
+            android:paddingRight="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="TYCM-c"
+            android:paddingRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="1234567890"
+            android:paddingRight="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:text="02."
+            android:paddingRight="35dp"/>
+        <TextView
+            android:text="Gaurav Wagh"
+            android:paddingRight="70dp"/>
+        <TextView
+            android:text="TYCM-c"
+            android:paddingRight="40dp"/>
+        <TextView
+            android:text="8208556012"
+            android:paddingRight="70dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:text="03."
+            android:paddingRight="35dp"/>
+        <TextView
+            android:text="Wagh Dhiraj"
+            android:paddingRight="70dp"/>
+        <TextView
+            android:text="TYCM-C"
+            android:paddingRight="40dp"/>
+        <TextView
+            android:text="1231231234"
+            android:paddingRight="70dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:text="04."
+            android:paddingRight="35dp"/>
+        <TextView
+            android:text="Shiakh Isshan"
+            android:paddingRight="70dp"/>
+        <TextView
+            android:text="TYCM-C"
+            android:paddingRight="40dp"/>
+        <TextView
+            android:text="1234123412"
+            android:paddingRight="70dp"/>
+    </TableRow>
+</TableLayout>
+
