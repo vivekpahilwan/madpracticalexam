@@ -12,7 +12,8 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
     EditText search_bar;
     Button btn;
-    Intent obj = new Intent(Intent.ACTION_VIEW);
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +24,12 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.btn);
 
 
-        obj.setData(Uri.parse("www.google.com"));
+
     }
 
     public void openweb(View v){
-        startActivity(obj);
+        String url = search_bar.getText().toString();
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        startActivity(intent);
     }
 }
