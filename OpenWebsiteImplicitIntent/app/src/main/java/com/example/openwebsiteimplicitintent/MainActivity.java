@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
         search_bar = findViewById(R.id.search_bar);
         btn = findViewById(R.id.btn);
 
-
-
     }
 
     public void openweb(View v){
