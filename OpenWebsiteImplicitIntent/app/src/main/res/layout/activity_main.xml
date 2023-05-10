@@ -15,6 +15,7 @@
         android:hint="Enter Keywords"/>
     <Button
         android:id="@+id/btn"
+        android:onClick="openweb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Search"
