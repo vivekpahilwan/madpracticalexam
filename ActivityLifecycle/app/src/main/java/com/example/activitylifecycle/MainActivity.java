@@ -1,9 +1,6 @@
 package com.example.activitylifecycle;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {

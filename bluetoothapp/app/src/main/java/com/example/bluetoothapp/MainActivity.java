@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     //This method turns on the bluetooth
     public void turnon (View v){
        try {
-        ba.enable();
+           ba.enable();
             Toast.makeText(this, "Bluetooth Enabled", Toast.LENGTH_SHORT).show();
         }
         catch (SecurityException e){
